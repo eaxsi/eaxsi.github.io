@@ -1,27 +1,48 @@
 /*fix background gradient */
 html { height:100%; }
 body { position:absolute; top:0; bottom:0; right:0; left:0; }
-
-div.teksti {
+div.header {
+font-size: 550%;
+font-weight: bold;
+font-family: 'Raleway', sans-serif;
+}
+div.center {
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-
-    font-size: 500%;
-    font-family: 'Raleway', sans-serif;
     #text-shadow: 5px 5px 40px rgba(0,0,0, 0.3);           
 }
-            
-body {
-    font-family: 'PT Sans', sans-serif;
-    
-    background-size: cover;
-    background: white;
-    background: -webkit-linear-gradient(grey, white);
-    background: -o-linear-gradient(grey, white);
-    background: -moz-linear-gradient(grey, white);
-    background: linear-gradient(grey, white);
+div.contact {
+    font-size: 130%;
+    padding-top: 10%;
 }
-                
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+    background-size: cover;
+    background: #e5e5e5;
+    background: -webkit-linear-gradient(#042c62, #e5e5e5);
+    background: -o-linear-gradient(#042c62, #e5e5e5);
+    background: -moz-linear-gradient(#042c62, #e5e5e5);
+    background: linear-gradient(#042c62, #e5e5e5);
+}
+p {
+    font-size: 160%;
+    font-family: 'PT Sans', sans-serif;
+}
+a:link, a:visited {
+    background-color: #032149;
+    color:  #e5e5e5;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: #021631;
+}
+.cryptedmail:after {
+  content: attr(data-n) "@" attr(data-d) "." attr(data-t); 
+}
