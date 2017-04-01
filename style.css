@@ -1,6 +1,6 @@
-html, body {
-    height: 100%;
-}
+/*fix background gradient */
+html { height:100%; }
+body { position:absolute; top:0; bottom:0; right:0; left:0; }
 
 div.teksti {
     position: absolute;
@@ -15,6 +15,9 @@ div.teksti {
 }
             
 body {
+    font-family: 'PT Sans', sans-serif;
+    
+    background-size: cover;
     background: white;
     background: -webkit-linear-gradient(grey, white);
     background: -o-linear-gradient(grey, white);
