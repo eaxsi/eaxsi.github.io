@@ -1,0 +1,20 @@
+div.teksti {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 500%;
+    font-family: 'Raleway', sans-serif;            
+}
+            
+body {
+    height: 200px;
+    background: white;
+    background: -webkit-linear-gradient(grey, white);
+    background: -o-linear-gradient(grey, white);
+    background: -moz-linear-gradient(grey, white);
+    background: linear-gradient(grey, white);
+}
+                
