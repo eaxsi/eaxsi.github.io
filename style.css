@@ -2,9 +2,9 @@
 html { height:100%; }
 body { position:absolute; top:0; bottom:0; right:0; left:0; }
 div.header {
-font-size: 550%;
-font-weight: bold;
-font-family: 'Raleway', sans-serif;
+    font-size: 550%;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
 }
 div.center {
     position: absolute;
